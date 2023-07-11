@@ -35,7 +35,7 @@ export default function UsersIndex(): JSX.Element {
               setShowUnapproved(!showUnapproved);
             }}
           />
-          <PendingCollapseHeader showUnapproved={showUnapproved} />
+          {/* <PendingCollapseHeader showUnapproved={showUnapproved} /> */}
           <div className="collapse-content p-0 overflow-auto flex-1 scrollbar-hide">
             <UnapprovedUsersList
               users={unapprovedUsers as User[]}

@@ -35,7 +35,7 @@ app.use("/api/users", usersRouter);
 
 app.get("/api/auth");
 
-const PORT = 3000;
+const PORT = 3333;
 
 app.listen(PORT, () => {
   console.log(`start listening on port : ${PORT}`);
