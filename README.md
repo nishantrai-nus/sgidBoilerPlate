@@ -24,4 +24,4 @@ Required env variables (.env file in ./server):
 ## Database:
 You will need to set up your own DB. Configure the server to communicate with your DB by amending ./server/prisma/schema.prisma. Add the database url to the server env files as shown above. 
 
-For every new user that logs in via SGID, they must be manually approved by setting the "approved" column in "UserModel" to "t".
+For every new user that logs in via SGID, they must be manually approved by setting the "approved" column in "UserModel" to "t" in the database.
