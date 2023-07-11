@@ -1,5 +1,6 @@
 # SG ID Boiler Plate Code
 A code repository which provides boiler plate for a 3 tier app using SG ID authentication. 
+Forked from https://github.com/rizvanJacob/sgidBoilerPlate
 
 ## Front End:
 React (TS) frontend built using vite, tailwind, and daisyUI. 
