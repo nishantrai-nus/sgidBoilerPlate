@@ -28,9 +28,9 @@ Initially, the `AccountType` table requires two rows to be created. One with nam
 Steps do so so:
 1. In a terminal, connect to the database using psql and the database url:
 
-```
-psql postgresql://<username>:<password>@<hostname>:<port>/<database>
-```
+    ```
+    psql postgresql://<username>:<password>@<hostname>:<port>/<database>
+    ```
 * replace the values enclosed in <> accordingly
 2. Insert the required rows into the database using the following commands:
 
